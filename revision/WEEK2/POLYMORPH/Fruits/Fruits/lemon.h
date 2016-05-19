@@ -1,9 +1,10 @@
 #ifndef LEMON_H
 #define LEMON_H
-#include"citrus_fruits.h"
+#include "citrus.h"
+
 class Lemon : public CitrusFruit {
 public:
-  Lemon(float ph) : CitrusFruit(ph){}
+  Lemon(float ph) : CitrusFruit(ph){};
   const char * getName();
   float getPh();
 };

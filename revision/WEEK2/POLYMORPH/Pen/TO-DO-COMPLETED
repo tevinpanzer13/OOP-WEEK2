@@ -1,0 +1,29 @@
+    
+
+1.
+{//////////////////////////////////////////////////////////////
+    // //!TODO: what would happen if you used this version of   //
+    // //       Constructor in the comment box below            //
+    //////////////////////////////////////////////////////////////
+    // // FountainPen(std::string pen_name = "FountainPen") //  //
+    // //   : Pen(pen_name) {}                              //  //
+    //////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////// }
+
+.An error is generated ,that FountainPen(std::string pen_name = "FountainPen"),the function cannot be  overloaded.
+
+
+
+2.
+   { //!TODO: remove the 'virtual' keyword from the methods, compile,
+    //  run and take note of the results.}
+
+The program compiles and runs succesfully.
+
+
+
+3.
+  {  //!TODO: remove the 'this->' part, compile and
+    //  observe the results!}
+
+Program compiles but does not output the type of pen ,inheritance may not have taken place.
